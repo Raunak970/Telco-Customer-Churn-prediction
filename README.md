@@ -50,7 +50,14 @@ This project builds a machine learning model to predict churn and uncover the ke
 ## 🚀 How to Run
 1. Clone the repo  
 2. Install requirements (`pip install -r requirements.txt`)  
-3. Run `Customer_Churn_dataset.ipynb` in Jupyter Notebook  
+3. Run `Customer_Churn_dataset.ipynb` in Jupyter Notebook
+
+4. from google.colab import files
+uploaded = files.upload()
+
+import pandas as pd
+df = pd.read_csv("Telco-Customer-Churn.csv")
+
 
 ## 👤 Author
 - **Raunak Verma**  
